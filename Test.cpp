@@ -1,5 +1,9 @@
 #include "doctest.h"
-#include "Notebook.hpp" // (includes: Direction.hpp, iostream, string, stdexcept)
+#include "Notebook.hpp" 
+#include "Direction.hpp"
+#include<iostream>
+#include<string>
+#include<stdexcept>
 
 using namespace ariel;
 
