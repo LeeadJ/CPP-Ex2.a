@@ -4,7 +4,7 @@
 const int MAX_COL = 100;
 
 namespace ariel{
-    void Notebook::write(unsigned int page,unsigned int row,unsigned int column, Direction dir, string text){
+    void Notebook::write(unsigned int page,unsigned int row,unsigned int column, Direction dir, string const &text){
         if(column > MAX_COL){
             throw runtime_error("Column input Exceeds the size Restriction!");
         }
